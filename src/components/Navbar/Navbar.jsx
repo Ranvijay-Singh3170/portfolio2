@@ -45,9 +45,9 @@ const Navbar = () => {
         {/* Logo */}
         <div className="text-lg font-semibold cursor-pointer">
           <span className="text-[#8245ec]">&lt;</span>
-          <span className="text-white">Tarun</span>
+          <span className="text-white">Ranvijay</span>
           <span className="text-[#8245ec]">/</span>
-          <span className="text-white">Kaushik</span>
+          <span className="text-white">Singh</span>
           <span className="text-[#8245ec]">&gt;</span>
         </div>
 
@@ -105,7 +105,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Items */}
       {isOpen && (
-        <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#050414] bg-opacity-50 backdrop-blur-lg z-50 rounded-lg shadow-lg md:hidden">
+        <div className="absolute top-16 left-1/2 transform -translate-x-1/2 w-4/5 bg-[#050414] z-50 rounded-lg shadow-lg md:hidden">
           <ul className="flex flex-col items-center space-y-4 py-4 text-gray-300">
             {menuItems.map((item) => (
               <li
